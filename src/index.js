@@ -9,7 +9,7 @@ v && console.log(v);
 const App = React.lazy(() => import("./App"));
 
 ReactDOM.render(
-  <Suspense fallback={null}>
+  <Suspense fallback={null} maxDuration={5000}>
     <App />
   </Suspense>,
   document.getElementById("root")
