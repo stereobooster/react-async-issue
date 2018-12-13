@@ -3,6 +3,9 @@ import ReactDOM from "react-dom";
 import "./index.css";
 // import * as serviceWorker from "./serviceWorker";
 
+const v = process.env.REACT_APP_GIT_SHA;
+v && console.log(v);
+
 const App = React.lazy(() => import("./App"));
 
 ReactDOM.render(
