@@ -2,6 +2,7 @@
   "name": "react-async-issue",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://stereobooster.github.io/react-async-issue/",
   "dependencies": {
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
