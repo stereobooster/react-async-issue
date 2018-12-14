@@ -36,3 +36,30 @@ root.render(Root);
 The problem was, that before I tried separately `React.unstable_ConcurrentMode` and `unstable_createRoot`, but not together.
 
 ![filmstrip](public/filmstrip-concurent.png)
+
+### Hydrate vs re-render
+
+If you use prerendering instead of SSR, there is a chance that client side rendered HTML can be slightly different than prerendered one (which, I guess, bad practice).
+
+The simplest example, can look like this:
+
+```js
+<div style={{ background: prerendering ? green : darkBlue }} />
+```
+
+![filmstrip](public/filmstrip-hydrate.png)
+
+As the result `ReactDom.unstable_createRoot(rootElement, { hydrate: true })` will produce `green` div. The only way to avoid this is to "re-render" (which is less performant than hydrate).
+
+```js
+const root = ReactDom.unstable_createRoot(rootElement);
+// this is hacky to fix double copy of <div class="App">
+const callback = rootElement.hasChildNodes()
+  ? () => rootElement.removeChild(rootElement.firstChild)
+  : () => {};
+root.render(Root, callback);
+```
+
+If you will not use the hack it will result in two copies of `<div class="App">` one green (from pre-rendering) and one blue (from re-rendering).
+
+![filmstrip](public/filmstrip-rerender.png)

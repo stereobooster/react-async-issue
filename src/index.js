@@ -18,8 +18,17 @@ const Root = (
 );
 
 const rootElement = document.getElementById("root");
+
+// hydrate
 const root = ReactDom.unstable_createRoot(rootElement, { hydrate: true });
 root.render(Root);
+
+// re-render
+// const root = ReactDom.unstable_createRoot(rootElement);
+// const callback = rootElement.hasChildNodes()
+//   ? () => rootElement.removeChild(rootElement.firstChild)
+//   : () => {};
+// root.render(Root, callback);
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
