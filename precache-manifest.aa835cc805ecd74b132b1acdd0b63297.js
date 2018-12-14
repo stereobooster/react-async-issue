@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/react-async-issue/static/media/logo.5d5d9eef.svg"
   },
   {
-    "revision": "3c57163101a690be8eb5",
-    "url": "/react-async-issue/static/js/runtime~main.3c571631.js"
+    "revision": "257e023c0e13fb285e32",
+    "url": "/react-async-issue/static/js/runtime~main.257e023c.js"
   },
   {
     "revision": "636a6d417401d82d8781",
@@ -16,19 +16,19 @@ self.__precacheManifest = [
     "url": "/react-async-issue/static/js/2.b590d5d6.chunk.js"
   },
   {
-    "revision": "1fccb8da7367eca9ab41",
-    "url": "/react-async-issue/static/js/1.1fccb8da.chunk.js"
+    "revision": "2278bef3d396955cf5e0",
+    "url": "/react-async-issue/static/js/1.2278bef3.chunk.js"
   },
   {
     "revision": "636a6d417401d82d8781",
     "url": "/react-async-issue/static/css/main.e5b8c0b7.chunk.css"
   },
   {
-    "revision": "1fccb8da7367eca9ab41",
-    "url": "/react-async-issue/static/css/1.bb984d31.chunk.css"
+    "revision": "2278bef3d396955cf5e0",
+    "url": "/react-async-issue/static/css/1.7ebf28be.chunk.css"
   },
   {
-    "revision": "c4a4f04d292734df21f243f60efc4d21",
+    "revision": "5eff3a8535f89e0060b591d2e056e151",
     "url": "/react-async-issue/index.html"
   }
 ];
