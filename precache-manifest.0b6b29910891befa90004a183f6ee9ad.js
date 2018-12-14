@@ -8,8 +8,8 @@ self.__precacheManifest = [
     "url": "/react-async-issue/static/js/runtime~main.257e023c.js"
   },
   {
-    "revision": "77b71aeab23080a9bb70",
-    "url": "/react-async-issue/static/js/main.77b71aea.chunk.js"
+    "revision": "52447b9a0db2136defae",
+    "url": "/react-async-issue/static/js/main.52447b9a.chunk.js"
   },
   {
     "revision": "b590d5d6f71faf071f3b",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/react-async-issue/static/js/1.2278bef3.chunk.js"
   },
   {
-    "revision": "77b71aeab23080a9bb70",
+    "revision": "52447b9a0db2136defae",
     "url": "/react-async-issue/static/css/main.e5b8c0b7.chunk.css"
   },
   {
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/react-async-issue/static/css/1.7ebf28be.chunk.css"
   },
   {
-    "revision": "a9815e7e0b27dce8235a50631aabd37a",
+    "revision": "1edef4604bcba89bf7acba7b6069b48f",
     "url": "/react-async-issue/index.html"
   }
 ];
