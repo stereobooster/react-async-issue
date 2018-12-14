@@ -29,7 +29,7 @@ const Root = (
 );
 
 const rootElement = document.getElementById("root");
-const root = ReactDom.unstable_createRoot(rootElement);
+const root = ReactDom.unstable_createRoot(rootElement, { hydrate: true });
 root.render(Root);
 ```
 

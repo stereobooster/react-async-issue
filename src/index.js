@@ -18,7 +18,7 @@ const Root = (
 );
 
 const rootElement = document.getElementById("root");
-const root = ReactDom.unstable_createRoot(rootElement);
+const root = ReactDom.unstable_createRoot(rootElement, { hydrate: true });
 root.render(Root);
 
 // If you want your app to work offline and load faster, you can change
